@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+            integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+		<title>My Website</title>
+	</head>
+	<body>
+        <!-- Header --> 
+        <section id="header">
+            <div class="header container">
+                <div class="nav-bar">
+                    <div class="brand">
+                        <a href="#hero"><h1><span>C</span>had <span>M</span>urobayashi</h1></a>
+                    </div>
+                    <div class="nav-list">
+                        <div class="hamburger">
+                            <div class="bar"></div>
+                        </div>
+                        <ul>
+                            <li><a href="#hero" data-after="Home">Home</a></li>
+                            <li><a href="#skills" data-after="Skills">Skills</a></li>
+                            <li><a href="#projects" data-after="Projects">Projects</a></li>
+                            <li><a href="#about" data-after="About">About</a></li>
+                            <li><a href="#contact" data-after="Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Header -->
+
+		<!-- Hero Section -->
+		<section id="hero">
+			<div class="hero container">
+				<div>
+                    <h1>Hello, <span></span></h1>
+                    <h1>My Name is <span></span></h1>
+                    <h1>Chad <span></span></h1>
+                    <a href="#projects" type="button" class="cta">Portfolio</a>
+                    <div class="social-items">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/chadmuro/" target="_blank"><i class="fab fa-linkedin social-item"></i></a></li>
+                            <li><a href="https://github.com/chadmuro" target="_blank"><i class="fab fa-github social-item"></i></a></li>
+                        </ul>
+                    </div>
+				</div>
+			</div>
+		</section>
+        <!-- End Hero Section -->
+        
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="skills container">
+                <div class="skills-top">
+                    <h1 class="section-title">Sk<span>i</span>lls</h1>
+                    <p>Front End Development - HTML, CSS, SASS, Javascript, React<br>Back End Development - Node.js, Express, MongoDB<br>Version Control System - Git and Github</p>
+                </div>
+                <div class="skills-bottom">
+                    <div class="skills-item">
+                        <div class="icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h2>Front end development</h2>
+                        <p>HTML, CSS, SASS, Javascript, React</p>
+                    </div>
+                    <div class="skills-item">
+                        <div class="icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h2>Back end development</h2>
+                        <p>Node.js, Express, MongoDB, Mongoose</p>
+                    </div>
+                    <div class="skills-item">
+                        <div class="icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h2>Version Control</h2>
+                        <p>Git and Github</p>
+                    </div>
+                    <div class="skills-item">
+                        <div class="icon">
+                            <i class="fas fa-globe-asia"></i>
+                        </div>
+                        <h2>Languages</h2>
+                        <p>English - Native<br>Japanese - Intermediate (JLPT N3)</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Skills Section -->
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="projects container">
+                <div class="project-header">
+                    <h1 class="section-title">
+                        Recent <span>Projects</span> 
+                    </h1>
+                </div>
+                <div class="all-projects">
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1><a href="https://chadmuro.github.io/tokyo-tours/" target="_blank">Tokyo Tours</a></h1>
+                            <h2>Landing Page for Tokyo Tours</h2>
+                            
+                            <div class="project-btn">
+                                <a href="https://github.com/chadmuro/tokyo-tours" target="_blank"><i class="fas fa-code"></i>  View my Code</a>
+                            </div>
+                            <p>Static landing page for a fake tour company, Tokyo Tours. Built using HTML, CSS, and SASS. Various button animations, CSS styling, and a custom form.</p>
+                        </div>
+                        <div class="project-img">
+                            <img src="/img/tokyo-tours.png" alt="tokyo-tours img">
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1><a href="https://chadmuro.github.io/todo-list/" target="_blank">Todo List</a></h1>
+                            <h2>Basic Todo list</h2>
+                            <div class="project-btn">
+                                <a href="https://github.com/chadmuro/todo-list" target="_blank"><i class="fas fa-code"></i> View my Code</a>
+                            </div>
+                            <p>Basic todo list built using HTML, CSS, and Vanilla Javascript. Add, Delete, Complete, and Starred functionality. Save to local storage.</p>
+                        </div>
+                        <div class="project-img">
+                            <img src="/img/todo-list.png" alt="todo-list img">
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1><a href="download/marvel-search.mp4" target="_blank">Marvel Search</a></h1>
+                            <h2>Marvel Character Search App</h2>
+                            <div class="project-btn">
+                                <a href="https://github.com/chadmuro/marvel-search" target="_blank"><i class="fas fa-code"></i> View my Code</a>
+                            </div>
+                            <p>Marvel character search app built with the Marvel API. Built using HTML, CSS, SASS, and Javascript. Search functionality and character view.</p>
+                        </div>
+                        <div class="project-img">
+                            <img src="/img/marvel.png" alt="marvel search img">
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1><a href="https://chadmuro.github.io/nba-memory-game/" target="_blank">NBA Memory Game</a></h1>
+                            <h2>NBA Team Logo Memory Game</h2>
+                            <div class="project-btn">
+                                <a href="https://github.com/chadmuro/nba-memory-game" target="_blank"><i class="fas fa-code"></i> View my Code</a>
+                            </div>
+                            <p>NBA team logo memory game built using HTML, CSS, and Vanilla Javascript. Difficulty select from Easy, Normal, or Hard. Timer function included.</p>
+                        </div>
+                        <div class="project-img">
+                            <img src="/img/memory-game.png" alt="memory-game img">
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1><a href="https://chadmuro.github.io/netflix-clone/" target="_blank">Netflix Clone</a></h1>
+                            <h2>Static Landing Page of Netflix</h2>
+                            <div class="project-btn">
+                                <a href="https://github.com/chadmuro/netflix-clone" target="_blank"><i class="fas fa-code"></i> View my Code</a>
+                            </div>
+                            <p>Static landing page for a Netflix clone. Built using HTML, CSS, and Javascript.</p>
+                        </div>
+                        <div class="project-img">
+                            <img src="/img/netflix.png" alt="netfliximg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Projects Section -->
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="about container">
+                <div class="col-left">
+                    <div class="about-img">
+                        <img src="./img/img-2.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="col-right">
+                    <h1 class="section-title">About <span>Me</span></h1>
+                    <h2>Front End Developer</h2>
+                    <p>Born and raised in Hawaii <br> Native English and Intermediate Japanese (JLPT N3, July 2018) <br>Living in Japan for 7 years (4 years as an English teacher, 3 years as a Recruiter) <br>Valid working visa<br>Skills: HTML, CSS, SASS, Javascript, React, Node.js, Express, MongoDB, Git and Github<br>Communication, Teamwork, Adaptability, Problem Solving, Time Management</p>
+                    <a href="download/resume.pdf" target="_blank" class="cta">Download Resume</a>
+                </div>
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact container">
+                <div>
+                    <h1 class="section-title">Contact <span>Info</span></h1>
+                </div>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h1>Phone</h1>
+                            <h2>+81-90-1966-8219</h2>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h1>Email</h1>
+                            <h2>chadmuro@gmail.com</h2>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-address-card"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h1>Address</h1>
+                            <h2>Tokyo, Minato-ku</h2>
+                            <h2>Japan</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="footer container">
+                <div class="brand">
+                    <h1><span>C</span>had <span>M</span>urobayashi</h1>
+                    
+                </div>
+                <h2>Front End Developer</h2>
+                <div class="social-items">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/chadmuro/" target="_blank"><i class="fab fa-linkedin social-item"></i></a></li>
+                        <li><a href="https://github.com/chadmuro" target="_blank"><i class="fab fa-github social-item"></i></a></li>
+                    </ul>
+                </div>
+                <p>Copyright &copy; 2020 Chad. All rights reserved.</p>
+            </div>
+        </section>
+        <!-- End Footer -->
+        <script src="app.js"></script>
+	</body>
+</html>
